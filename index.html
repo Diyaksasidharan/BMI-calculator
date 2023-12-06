@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+</head>
+<body bgcolor="rgb(117, 126, 180)">
+    <br><br><br>
+
+    
+    
+<div id="calculator">
+  <h2><img src="./1.png" alt="" width="40px" height="30px">
+    BMI Calculator</h2><br>
+  <label for="weight"><b>Weight (In kg):</b></label><br><br>
+  <input type="number" id="weight" placeholder="Enter weight in kg"><br><br>
+
+  <label for="height"><b>Height (In cm):</b></label><br><br>
+  <input type="number" id="height" placeholder="Enter height in cm"><br><br>
+
+  <input type="submit" value="Calculate" onclick="calculateBMI()">
+
+  <div id="result"></div>
+  <img src="./bmi.png" alt="bmi" width="96%">
+</div>
+
+
+
+</body>
+</html>
+
+<script src="./script.js"></script>
